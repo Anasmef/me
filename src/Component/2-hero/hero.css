@@ -1,0 +1,59 @@
+/* .hero{
+    border:1px solid red;
+    
+} */
+.header-border {
+    border-bottom: 1px solid var(--border);
+    margin: 3rem 0;
+}
+
+section article.profil{
+    
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+section article.animation{
+    
+    padding: 1rem;
+}
+section .moi{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+section article h1{
+    letter-spacing: 3px;
+    font-size: 24px; 
+    font-weight: bold;
+    color: var(--title);
+}
+/* section .icons{
+    border: 1px solid red;
+    justify-content: space-between;
+} */
+section .icon{
+    margin: 0 0.6rem;
+}
+
+section .divP{
+    margin: 0.6rem 0;
+    
+    
+}
+section .divP {
+    justify-content: space-between;
+}
+
+section article p{
+    color: var(--subtitle);
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+

@@ -1,0 +1,5 @@
+.divider{
+    border-bottom: 1px solide red;
+    /* border-bottom: 1px solide var(--border); */
+    margin-bottom: 3rem 0;
+}
