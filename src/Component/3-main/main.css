@@ -1,0 +1,70 @@
+main.flex{
+    align-items: start;
+    gap: 3rem;
+}
+
+
+main .left button.btnPrj{
+    
+    border: 1px solid var(--border);
+    background-color: var(--bgHeader);
+    /* margin: 0.2rem; */
+    width: 11rem;
+    height: 2rem;
+    padding: 0.75rem 0;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.07rem;
+    opacity: 0.5;
+    
+
+}
+main .left button.btnPrj:hover{
+    border-color: var(--blue);
+    opacity: 1;
+    font-weight: blod;
+}
+
+main .left  button.active{
+    opacity: 1;
+    font-weight: blod;
+    letter-spacing: 0.2rem;
+    padding: 0.8rem 0;
+    border-color: var(--blue);
+}
+
+main .left .allBtn{
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+main section.right {
+    flex-grow: 1;
+    border: 1px solid red;
+    flex-wrap: wrap;
+}
+.image img{
+    
+    width: 100%;
+    height: 150px;
+    
+    border: 0.5px solid gray;
+    padding: 2px;
+}
+
+main section article.card{
+    width: 250px;
+    border: 1px solid var(--border);
+    margin: 0.5rem;
+}
